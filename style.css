@@ -1,0 +1,136 @@
+
+.btn {
+    width: 360px;
+    object-fit: fill;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.6;
+}
+.btn-3 {
+    width: 360px;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+.frame-1 {
+    background: #011913;
+    height: 945px;
+}
+.square-1 { 
+    background: #00E1BE;
+    position: relative;
+    top: 126px;
+    height: 78px;
+}
+.frame1-inside {
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group-1 {
+    position: relative;
+    top: 35px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frame-2 {
+    background: #001E1F;
+    height: 1277px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.square-2 { 
+    background: #036060;
+    position: relative;
+    height: 206px;
+    width: -webkit-fill-available;;
+    display: flex;
+    justify-content: center;
+}
+
+.frame-3 {
+    background: #001E1F;
+    height: 1082px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.group-3 { 
+    display: flex;
+    justify-content: space-around;
+    width: 1040px;
+}
+
+.frame-4 {
+    background: #E0E0E0;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-4 {
+    padding-left: 300px;
+}
+
+.frame-5 {
+    background: #001E1F;
+    height: 980px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.background-5 {
+    position: absolute;
+}
+.group-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1055px;
+}
+
+.frame-6 {
+    background: #E0E0E0;
+    height: 810px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.frame-7 { 
+    background: #001E1F;
+    height: 637px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-midle {
+    position: absolute; 
+    padding-bottom: 630px;
+}
+
+.frame-8 { 
+    background: #E0E0E0;
+    height: 627px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
