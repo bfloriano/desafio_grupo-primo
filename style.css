@@ -1,16 +1,26 @@
-
-.btn {
+body {
+    font-family: 'Oswald', sans-serif;
+}
+button {
     width: 360px;
-    object-fit: fill;
+    height: 70px;
+    background: #00E1BE;
+    border-radius: 20px;
+    border-color: #00E1BE;
+    font-size: 2em;
+    font-weight: bolder;
     cursor: pointer;
 }
-.btn:hover {
-    opacity: 0.6;
+button:hover {
+    opacity: 0.8;
+    background: #5ac5c9;
 }
-.btn-3 {
-    width: 360px;
-    object-fit: fill;
-    cursor: pointer;
+p {
+    color: #FCFCFC;
+    margin: 0;
+}
+.p-green {
+    color: #00E1BE;
 }
 
 .frame-1 {
@@ -54,6 +64,13 @@
     width: -webkit-fill-available;;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 2.6em;
+    text-align: center;
+}
+.group-2 {
+    text-align: center;
+    font-size: 2em;
 }
 
 .frame-3 {
