@@ -1,5 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
+    width: 1920px;
 }
 button {
     width: 360px;
@@ -21,6 +22,17 @@ p {
 }
 .p-green {
     color: #00E1BE;
+}
+.p-black {
+    color: #001E1F;
+}
+.btn-midle {
+    position: relative; 
+    top: -140px;
+}
+.img-midle {
+    position: relative; 
+    top: -75px;
 }
 
 .frame-1 {
@@ -68,6 +80,9 @@ p {
     font-size: 2.6em;
     text-align: center;
 }
+.text-2 {
+    font-size: 3em;
+}
 .group-2 {
     text-align: center;
     font-size: 2em;
@@ -85,7 +100,10 @@ p {
 .group-3 { 
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 1040px;
+    font-size: 1.7em;
+    font-weight: 500;
 }
 
 .frame-4 {
@@ -98,6 +116,9 @@ p {
 }
 .title-4 {
     padding-left: 300px;
+    color: #001E1F;
+    font-size: 5em;
+    font-weight: bolder;
 }
 
 .frame-5 {
@@ -118,6 +139,15 @@ p {
     align-items: flex-start;
     width: 1055px;
 }
+.title-5 {
+   font-size: 2em; 
+   font-weight: bold; 
+   margin-bottom: 15px;
+}
+.text-5 {
+    font-size: 1.4em; 
+    letter-spacing: 0.05em;
+}
 
 .frame-6 {
     background: #E0E0E0;
@@ -127,6 +157,26 @@ p {
     align-items: center;
     justify-content: space-around;
     padding-bottom: 50px;
+}
+.title-6 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #001E1F;
+}
+.text-6-1 {
+    font-size: 2em; 
+    font-weight: bolder; 
+    color: #000000;
+}
+.text-6-2 {
+    font-size: 1.8em; 
+    font-weight: 500;
+    color: #000000;
+}
+.line {
+    position: relative;
+    top: 87px;
+    right: 60px;
 }
 
 .frame-7 { 
@@ -138,11 +188,6 @@ p {
     align-items: center;
 }
 
-.img-midle {
-    position: absolute; 
-    padding-bottom: 630px;
-}
-
 .frame-8 { 
     background: #E0E0E0;
     height: 627px;
@@ -150,4 +195,38 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1025px) {
+    body {
+        width: 1024px;
+    }
+    .img-mq {
+        width: 940px;
+    }
+    .img-midle {
+        top: -95px;
+    }
+    .frame1-inside {
+        left: 100px;
+    }
+    .img-1 {
+        position: relative;
+        right: 70px;
+    }
+    .text-2 {
+        font-size: 2.5em;
+    }
+    .square-2 { 
+        font-size: 2.1em;
+    }
+    .group-3 { 
+        width: 940px;
+    }
+    .title-4 {
+        font-size: 4em;
+    }
+    .group-5 {
+        width: 940px;
+    }
 }
